@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"configurations": [
+		{
+		  "console": "integratedTerminal",
+		  "type": "node",
+		  "request": "launch",
+		  "name": "express debug",
+		  "restart": true,
+		  "skipFiles": ["<node_internals>/**"],
+		  "program": "${workspaceFolder}/src/index.js",
+		  "runtimeExecutable": "npm",
+		  "runtimeArgs": ["run", "start"],
+		  "port": 5858
+		}
+	  ]
+}
